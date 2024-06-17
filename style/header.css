@@ -8,5 +8,7 @@
 }
 
 .cabecalho {
-    background-color:var(--branco)white
+    background-color:var(--branco)white;
+    display: flex;
+    justify-content: space-between;
 }
