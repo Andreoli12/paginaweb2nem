@@ -11,4 +11,5 @@
     background-color:var(--branco)white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
