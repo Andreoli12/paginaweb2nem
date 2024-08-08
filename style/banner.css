@@ -1,4 +1,10 @@
 .banner {
     background: var(--vermelho-bordo);
     color: var(--branco);
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
 }
