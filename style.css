@@ -1,9 +1,12 @@
 @import url("style/header.css");
+@import url(style/banner.css);
 
 :root {
-    --cor-de-fundo: #c41a1a; 
+    --cor-de-fundo: #e6dddd; 
     --vermelho: #FF0000;
     --fonte-principal:"Poppins";
+    --vermelho-bordo: #c41a1a;
+    --branco: #ffffff;
 }
 
 body{
