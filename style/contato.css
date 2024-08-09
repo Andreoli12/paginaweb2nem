@@ -3,7 +3,7 @@
     padding: 1em;
 }
 
-.contato__titulo {
+.contato__titulo, .contato__texto {
     background: var(--vermelho-bordo);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
