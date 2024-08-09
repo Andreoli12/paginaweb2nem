@@ -1,7 +1,6 @@
 .tópicos {
     background: var(--vermelho-bordo);
     text-align: center;
-    color: var(--branco);  
 }
 
 .tópicos__titulo {
@@ -15,3 +14,15 @@
     justify-content: center;
 }
 
+.tópicos__item {
+    margin: 2em 0.5em;
+}
+
+.tópicos__link {
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--branco);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
