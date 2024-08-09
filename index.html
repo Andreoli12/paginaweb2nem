@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -39,13 +40,45 @@
     <section class="banner">
       <h2 class="banner__titulo">Já sabe por onde começar?</h2>
       <p class="banner__texto">Encontre em nossa estante o que quiser para seu desenvolvimento!</p>
-      <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+      <input type="search" class="banner__pesquisa" placeholder="Pesquisar">
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="livro-o-mistério-da-casa-borcelle.jpg" alt="O mistério da casa Borcelle"></div>
+      <div class="swiper-slide"><img src="sussuros-na-floresta.jpg" alt="Sussuros na Floresta"></div>
+      <div class="swiper-slide"><img src="o-segredo-das-sombras.jpg" alt="O segredo das Sombras"></div>
+      <div class="swiper-slide"><img src="Harry-potter.jpg" alt="Harry Potter"></div>
+      <div class="swiper-slide"><img src="Hemingway-the-old-man-and-the-Sea.jpg" alt="Hemingway The Old Man And The Sea"></div>
+      <div class="swiper-slide"><img src="Vermelho-Branco-e-Sangue-Azul.jpg" alt="Vermelho Branco E Sangue Azul"></div>
+      <div class="swiper-slide"><img src="Antes-que-Você-diga-Adeus.png" alt="Antes Que Você Diga Adeus"></div>
+      ...
+     </div>
+    <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+     <div class="swiper-scrollbar"></div>
+     </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+    const swiper = new Swiper('.swiper', {
+       spaceBetween: 50,
+       slidesPerview: 3,
+    });
+    </script>
 </body>
 
 </html>
