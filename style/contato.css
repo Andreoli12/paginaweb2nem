@@ -25,6 +25,7 @@
     border: 1px solid var(--vermelho-bordo);
     border-radius: 24px;
     width: 90%;
+    color: var(--vermelho-bordo);
 }
 
 .contato-email::placeholder {
