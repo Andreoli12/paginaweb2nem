@@ -25,6 +25,7 @@ swiper-pagination {
 .card__descrição {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .card__botoes {
@@ -58,4 +59,8 @@ swiper-pagination {
 
 .descrição__texto {
     font-size: 14px;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
 }
