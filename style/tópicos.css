@@ -1,0 +1,17 @@
+.tópicos {
+    background: var(--vermelho-bordo);
+    text-align: center;
+    color: var(--branco);  
+}
+
+.tópicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
