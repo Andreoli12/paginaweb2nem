@@ -63,5 +63,9 @@ swiper-pagination {
 
 .botoes__item {
     margin: 0 0.5em;
-    width: 25%;
+}
+
+.botoes__ancora {
+    background-color: var(--vermelho);
+    padding: 1em 2.2em;
 }
