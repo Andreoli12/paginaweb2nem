@@ -3,6 +3,7 @@
 @import url(style/carrossel.css);
 @import url(style/tópicos.css);
 @import url(style/contato.css);
+@import url(style/rodapé.css);
 
 :root {
     --cor-de-fundo: #e6dddd; 
